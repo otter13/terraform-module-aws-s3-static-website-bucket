@@ -1,6 +1,6 @@
 # Terraform Module - aws-s3-static-website-bucket
 
-A Terraform modules (see modules\aws-s3-static-website-bucket) for provisioning a bucket web hosting.
+A Terraform module (see modules\aws-s3-static-website-bucket) for provisioning a bucket web hosting.
 
 Inputs
   - bucket_name
