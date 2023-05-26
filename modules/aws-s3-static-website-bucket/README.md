@@ -13,7 +13,7 @@ Outputs
 
 Code snippet:
 ```
-    module "website_s3_bucket" {
+  module "website_s3_bucket" {
     source = "./modules/aws-s3-static-website-bucket"
 
     bucket_name = "jil-test-26-05-2023"
@@ -22,6 +22,6 @@ Code snippet:
         Terraform   = "true"
         Environment = "dev"
     }
-    }
+  }
 ```
 
