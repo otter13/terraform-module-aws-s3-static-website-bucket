@@ -16,14 +16,14 @@ This repo is a companion repo to consume the module within it - modules\aws-s3-s
 Code snippet:
 ```
     module "website_s3_bucket" {
-    source = "./modules/aws-s3-static-website-bucket"
+      source = "./modules/aws-s3-static-website-bucket"
 
-    bucket_name = "jil-test-26-05-2023"
+      bucket_name = "jil-test-26-05-2023"
 
-    tags = {
-        Terraform   = "true"
-        Environment = "dev"
-    }
+      tags = {
+          Terraform   = "true"
+          Environment = "dev"
+      }
     }
 ```
 
